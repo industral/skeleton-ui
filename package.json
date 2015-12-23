@@ -1,0 +1,23 @@
+{
+  "name": "SkeletonUI",
+  "private": true,
+  "engines": {
+    "node": ">= v0.10"
+  },
+  "scripts": {
+    "build": "cd build && node build.js",
+    "test": "karma start tests/karma.conf.js",
+    "doc": "./node_modules/.bin/jsdoc -r app/ -d docs/api"
+  },
+  "dependencies": {
+    "optimist": "",
+    "mime": ""
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "",
+    "karma-coverage": "",
+    "karma-jasmine": "",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "jsdoc": ""
+  }
+}

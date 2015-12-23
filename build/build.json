@@ -1,0 +1,55 @@
+{
+  "user": [
+    "file#app/components/context/ns.js",
+
+    "file#app/assets/scripts/emitter.js",
+    "file#app/assets/scripts/cookie.js",
+    "file#app/assets/scripts/utils.js",
+
+    "file#app/assets/styles/reset.css",
+    "file#app/assets/styles/main.css",
+
+    "file#app/assets/scripts/router.js",
+
+    "component#component/notification",
+    "component#component/confirm",
+    "component#component/loader",
+    "component#component/modal",
+
+    "component#widget/header",
+    "component#widget/navigation",
+
+    "component#page/home",
+    "component#page/home2",
+
+    "component#layout/home",
+
+    "file#app/components/context/app.js"
+  ],
+
+  "login": [
+    "file#app/components/context/ns.js",
+
+    "file#app/assets/scripts/emitter.js",
+    "file#app/assets/scripts/cookie.js",
+    "file#app/assets/scripts/utils.js",
+
+    "file#app/assets/styles/reset.css",
+    "file#app/assets/styles/main.css",
+
+    "file#app/assets/scripts/router.js",
+
+    "component#component/notification",
+    "component#component/confirm",
+    "component#component/loader",
+    "component#component/modal",
+
+    "component#widget/header",
+
+    "component#page/login",
+
+    "component#layout/login",
+
+    "file#app/components/context/app.js"
+  ]
+}

@@ -1,0 +1,83 @@
+#notifications {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 1001;
+}
+
+.notification-item {
+  background: #404040;
+  border: 2px solid #ccc;
+  border-radius: 9px;
+  color: #fff;
+  display: none;
+  margin: 5px;
+  min-height: 50px;
+  padding: 4px 8px;
+  position: relative;
+  width: 250px;
+}
+
+.notification-item.show {
+  display: block;
+}
+
+.notification-item[data-status=ok] .notification-status {
+  background-position: 0 0;
+}
+
+.notification-item[data-status=warning] .notification-status {
+  background-position: -33px 0;
+}
+
+.notification-item[data-status=error] .notification-status {
+  background-position: -68px 0;
+}
+
+.notification-item .notification-status {
+  background: url(/app/components/component/notification/images/ok_warning_error_icons.png) no-repeat transparent;
+  background-size: 100px auto;
+  display: inline-block;
+  height: 32px;
+  vertical-align: top;
+  width: 32px;
+}
+
+.notification-item .info-wrapper {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  width: 205px;
+}
+
+.notification-item .info-wrapper h1 {
+  font-size: 21px;
+  margin: 0 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.notification-item .info-wrapper p {
+  padding: 5px 0;
+  word-wrap: break-word;
+}
+
+.notification-item button {
+  background: url(/app/components/component/notification/images/close-button.png) no-repeat;
+  border: none;
+  cursor: pointer;
+  display: none;
+  height: 29px;
+  position: absolute;
+  right: -15px;
+  top: -13px;
+  width: 29px;
+}
+
+.notification-item:hover {
+  border: 2px solid #999;
+}
+
+.notification-item:hover button {
+  display: block;
+}

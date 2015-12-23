@@ -1,0 +1,26 @@
+.cmp-loader {
+  background: url(/app/components/component/loader/images/ajax-loader.gif) no-repeat #fff center center;
+  height: 100%;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.cmp-general-loader {
+  height: 10%;
+  margin: auto;
+  position: absolute;
+  width: 50%;
+  z-index: 999;
+}
+
+.cmp-general-loader span {
+  text-align: center;
+}
+
+.cmp-general-loader span:after {
+  content: url(/app/components/component/loader/images/ajax-loader.gif);
+}
